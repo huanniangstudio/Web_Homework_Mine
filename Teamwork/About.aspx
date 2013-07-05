@@ -1,34 +1,34 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="Teamwork.About" %>
+﻿<%@ Page Title="关于" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="WebApplication1.About" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <hgroup class="title">
         <h1><%: Title %>.</h1>
-        <h2>Your app description page.</h2>
+        <h2>你的应用程序说明页。</h2>
     </hgroup>
 
     <article>
         <p>        
-            Use this area to provide additional information.
+            使用此区域可提供附加信息。
         </p>
 
         <p>        
-            Use this area to provide additional information.
+            使用此区域可提供附加信息。
         </p>
 
         <p>        
-            Use this area to provide additional information.
+            使用此区域可提供附加信息。
         </p>
     </article>
 
     <aside>
-        <h3>Aside Title</h3>
+        <h3>附加标题</h3>
         <p>        
-            Use this area to provide additional information.
+            使用此区域可提供附加信息。
         </p>
         <ul>
-            <li><a runat="server" href="~/">Home</a></li>
-            <li><a runat="server" href="~/About.aspx">About</a></li>
-            <li><a runat="server" href="~/Contact.aspx">Contact</a></li>
+            <li><a id="A1" runat="server" href="~/">主页</a></li>
+            <li><a id="A2" runat="server" href="~/About.aspx">关于</a></li>
+            <li><a id="A3" runat="server" href="~/Contact.aspx">联系方式</a></li>
         </ul>
     </aside>
 </asp:Content>
