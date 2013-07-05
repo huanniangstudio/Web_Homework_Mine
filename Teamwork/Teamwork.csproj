@@ -127,6 +127,7 @@
     <Content Include="Account\OpenAuthProviders.ascx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="AddQuestion.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -196,8 +197,12 @@
     <Content Include="Images\orderedList7.png" />
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
+    <Content Include="Login.aspx" />
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="QuestionDetail.aspx" />
+    <Content Include="ReplyQuestion.aspx" />
+    <Content Include="ReplyQuestionList.aspx" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
     <Content Include="Scripts\jquery-ui-1.8.20.js" />
@@ -228,10 +233,19 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="ShowQuestion.aspx" />
+    <Content Include="ShowQuestionList.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddQuestion.aspx.cs">
+      <DependentUpon>AddQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddQuestion.aspx.designer.cs">
+      <DependentUpon>AddQuestion.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="About.aspx.cs">
@@ -293,7 +307,49 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestionDetail.aspx.cs">
+      <DependentUpon>QuestionDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuestionDetail.aspx.designer.cs">
+      <DependentUpon>QuestionDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReplyQuestion.aspx.cs">
+      <DependentUpon>ReplyQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReplyQuestion.aspx.designer.cs">
+      <DependentUpon>ReplyQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReplyQuestionList.aspx.cs">
+      <DependentUpon>ReplyQuestionList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReplyQuestionList.aspx.designer.cs">
+      <DependentUpon>ReplyQuestionList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowQuestion.aspx.cs">
+      <DependentUpon>ShowQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowQuestion.aspx.designer.cs">
+      <DependentUpon>ShowQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ShowQuestionList.aspx.cs">
+      <DependentUpon>ShowQuestionList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowQuestionList.aspx.designer.cs">
+      <DependentUpon>ShowQuestionList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -301,6 +357,7 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="SqlData.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
