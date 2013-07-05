@@ -85,33 +85,6 @@ namespace Teamwork {
         protected global::System.Web.UI.WebControls.LoginView LoginView1;
         
         /// <summary>
-        /// A3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor A3;
-        
-        /// <summary>
-        /// A4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor A4;
-        
-        /// <summary>
-        /// A5 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor A5;
-        
-        /// <summary>
         /// FeaturedContent control.
         /// </summary>
         /// <remarks>
